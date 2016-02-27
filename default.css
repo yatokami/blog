@@ -1,0 +1,93 @@
+*{
+	text-decoration: none;
+}
+
+
+
+body{
+	margin: 0;
+}
+
+.header{
+	height: 50px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: #40E0D0;
+}
+
+
+.banner-page{
+	background: url(./night.jpg);
+	height: 1200px;
+	background-size: cover;
+}
+
+
+
+.logo{
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #00C5CD;
+	position: fixed;
+	left: 50%;
+	margin-left: -30px;
+	top: 10px;
+	box-shadow: 0 5px 5px rgba(0,0,0,.4	);
+	/*font*/
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	font-family: "Microsoft Yahei";
+	font-weight: normal;
+
+}
+
+
+.nav{
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-top: 13px;
+}
+
+
+li{
+	list-style: none;
+	float: left;
+	margin-right: 8px;
+}
+
+li a{
+	color: #fff;
+	font-size: 16px;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	padding: 8px 5px;
+	border: 1px solid transparent;
+	border-radius: 7px;
+}
+
+
+
+
+li.current a{
+	background: rgba(58,95,205,.6);
+	border: 1px solid transparent;
+}
+
+
+
+li a:hover{
+	border: 1px solid rgba(58,95,205,.6);
+}
+
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
